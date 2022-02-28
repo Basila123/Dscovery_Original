@@ -1,0 +1,76 @@
+.maindiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: chartreuse;
+
+   }
+.globe{
+    width:57%;
+    height: 100%;
+    z-index: 0;
+}
+.blackbox{
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    position: relative;
+    top:30%;
+    right: 10%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    
+}
+.imagebox{
+    width: 40%;
+    height: 100%;
+    background-color: brown;
+    position: relative;
+    top: -10%;
+    left:55%;
+
+}
+#imgid{
+    width: 100%;
+    height: 100%;
+
+}
+#slide1{
+    width: 100%;
+    height: 100%;
+
+}
+#slideinner{
+    width: 100%;
+    height: 100%;
+}
+
+.blackbox-buttons{
+    position: relative;
+    top: 10%;
+    left: 10%;
+    
+}
+.icons{
+    width: 50%;
+    height: 5%;
+    background-color: white;
+    position: relative;
+    top: 15%;
+    left:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.icon-blackbox{
+    width: 5%;
+    height: 5%;
+}
+.blackboxtext{
+    color: white;
+    position: relative;
+    top:40%;
+    left:10%;
+}

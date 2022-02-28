@@ -1,0 +1,308 @@
+*{
+    box-sizing: border-box;
+}
+.header-container{
+    width: 100vw;
+    height: 100vh;
+    
+
+
+}
+
+.video-header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+.header-heading{
+  position: absolute;
+  bottom: 900px;
+  
+  color:transparent;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  font-size: x-large;
+  
+
+}
+.header-heading-sub{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.header-heading-link{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.header-heading-link a{
+    color: white;
+}
+.video-sub{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Main-container{
+    width: 100vw;
+    height: 480vh;
+    background-color: aliceblue;
+    
+    
+
+}
+
+.maindiv1{
+    width: 100vw;
+    height: 140vh;
+   
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+
+}
+.subdiv{
+    width: 100%;
+    height: 30%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.subdiv1{
+
+    width: 100vw;
+    height: 70%;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10;
+    display: flex;
+    flex-direction: row;
+}
+.subdiv-block {
+    width: 50%;
+    height: 70%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left:150px;
+   
+    
+    
+}
+.block1{
+    width:50%;
+    position: relative;
+    
+    left:50px;
+   
+}
+.block2{
+    width:50%;
+    position:relative;
+    left:80px;
+    font-size: large;
+   
+}
+.subdiv_image{
+    width:50%;
+    height: 100%;
+    position: relative;
+    right: 180px;
+    
+
+    
+}
+.subdiv-img{
+    width: 50%;
+    height: 80%;
+   
+    display: flex;
+    justify-content: center;
+    
+}
+.maindiv2{
+    width: 100vw;
+    height: 100vh;
+   
+    background-color: rgb(228, 236, 228);
+    
+    
+}
+.maindiv2_left{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    
+    
+}
+.box-left{
+   
+    height: 60%;
+    width: 65%;
+    background-color: grey;
+    position: absolute;
+    z-index: 1;
+    top:3000px;
+    right:550px;
+
+   
+
+}
+.box-left1{
+   
+    height: 60%;
+    width: 55%;
+    background-color: rgb(181, 233, 235);
+    position: absolute;
+    z-index: 1;
+    top:5180px;
+    right:550px;
+
+   
+
+}
+
+
+
+.image-left{
+    height: 80%;
+    width: 80%;
+    z-index: 2;
+    
+
+    
+   
+    
+
+}
+.image-leftdiv{
+    height: 100%;
+    width: 79%;
+    position: relative;
+    top:10%;
+    left:100px;
+  
+}
+.text-left{
+    height: 45%;
+    width: 30%;
+    background-color:white;
+    position: absolute;
+    top: 2900px;
+    right: 200px;
+    z-index: 3;
+}
+.text-left1{
+    height: 45%;
+    width: 30%;
+    background-color: white;
+    position: absolute;
+    top: 5000px;
+    right: 200px;
+    z-index: 3;
+}
+.maindiv2_right{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+
+}
+.image-right{
+    height: 80%;
+    width: 70%;
+    z-index: 2;
+    position: relative;
+    right: 6%;
+
+}
+.image-rightdiv{
+    height: 100%;
+    width: 100%;
+
+}
+.box-right{
+    height: 60%;
+    width: 60%;
+    background-color: rgb(181, 233, 235);
+    position: absolute;
+    z-index: 1;
+    top:4000px;
+    left:450px;
+
+
+}
+.text-right{
+    height: 45%;
+    width: 30%;
+    background-color: white;
+    position: absolute;
+    top: 4000px;
+    left: 100px;
+    z-index: 3;
+
+}
+.maindiv3{
+    width: 100vw;
+    height: 50vh;
+   
+   
+}
+.maindiv3-img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.footer-container{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(37, 37, 36);
+    display: flex;
+    
+}
+.footer-div{
+
+    width: 50%;
+    height: 100%;
+}
+.list-footer{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 150px;
+
+}
+.logo-footer{
+    position: relative;
+    top: 150px;
+}
+.list-footer ul{
+    list-style-type: none;
+    color: white;
+
+}
