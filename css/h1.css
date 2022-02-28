@@ -1,0 +1,41 @@
+.bigbox{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main_content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.columnsub{
+   
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+.rowsub{
+    border: blue 1px solid;
+    width: 50%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+
+}
+.Text{
+    height:60%;
+    width: 100%;
+   
+}
+.palce{
+    height: 20%;
+    width: 100%;
+   
+}
+.article{
+    height: 10%;
+    width: 100%;
+}

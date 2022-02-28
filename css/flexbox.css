@@ -1,0 +1,50 @@
+
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  .bar {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    background: #eee;
+    padding: 50px;
+  }
+  .icon-icon-1{
+      display: flex;
+      align-items: space-between;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      
+      
+  }
+  .search {
+    /* take up the rest of the remaining space */
+    flex: 1;
+  }
+  .search input {
+    width: 50vw;
+  }
+
+
+  
+  @media (max-width: 650px) {
+    .bar {
+      flex-wrap: wrap;
+    }
+    .icon {
+      order: 0 !important;
+    }
+    .btn1 {
+      order: 1 !important;
+      width: 100%;
+      margin: 15px;
+    }
+    .search {
+      order: 2 !important;
+      width: 50wh;
+    }
+  }

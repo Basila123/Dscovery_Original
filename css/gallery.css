@@ -1,0 +1,126 @@
+.galleryheader{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 50vh;
+    background-image:url(https://dxaurk9yhilm4.cloudfront.net/images/7383/jael-rodriguez-AkF5NT0sZy8-unsplash-1-1_210301_200939_35d31212c7a2d4dccdff99afa3f88af5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;              
+}
+.headergallery{
+    display:flex;
+    flex-direction: row;
+
+
+}
+.svgimage{
+    fill:#ffffff;
+     font-size:"35"; 
+     font-family:"Verdana"; 
+   
+     
+}
+
+
+.navheader{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+.ulheader {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    pointer-events: all;
+    position: relative;
+    padding-left: 60em;
+
+    
+
+  }
+  .ulheader>li{
+      margin-right:2em;
+      list-style-type: none;
+      justify-items: center;
+  }
+  .buttonheader{
+      margin-top: 1.5rem;
+      height: 1px;
+  }
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: black;
+    
+    width:100vw;
+    height:90vh;
+  }
+  .row1{
+      
+      width: 100%;
+      height: 80%;
+      display: flex;
+  }
+  .image-child{
+      width: 33.3%;
+      height: 100%;
+      
+
+  }
+  .image-pic{
+      height: 80%;
+      width: 100%;
+      
+
+  }
+  .img1{
+    
+      width: 100%;
+      height: 100%;
+
+      
+  }
+  .title{
+      height:20%;
+      width: 100%;
+      background:#020202;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+  }
+
+
+  .title p{
+      font-size: small;
+  }
+
+ 
+.footer-container{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(37, 37, 36);
+    display: flex;
+    
+}
+.footer-div{
+
+    width: 50%;
+    height: 100%;
+}
+.list-footer{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+
+}
+.list-footer ul{
+    list-style-type: none;
+    color: white;
+}
